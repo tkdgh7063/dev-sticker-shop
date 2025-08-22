@@ -1,4 +1,6 @@
 import * as React from "react";
+import Layout from "../components/Layout";
+import Seo from "../components/Seo";
 
 const links = [
   {
@@ -46,12 +48,12 @@ const links = [
   },
 ];
 
-const IndexPage = () => {
+export default function IndexPage() {
   return (
-    <div>
-      <h1>Welcome to DevSticker👋🏻</h1>
-    </div>
+    <Layout title="Welcome to DevSticker👋🏻">
+      <div></div>
+    </Layout>
   );
-};
+}
 
-export default IndexPage;
+export const Head = () => <Seo title="Home" />;
