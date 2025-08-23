@@ -5,7 +5,7 @@ import Seo from "../components/Seo";
 export default function Blog() {
   return (
     <Layout title="Blog">
-      <p>The most recent news from my shop.</p>
+      <p>The latest updates from our creative sticker store.</p>
     </Layout>
   );
 }
