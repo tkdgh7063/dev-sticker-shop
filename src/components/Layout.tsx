@@ -8,7 +8,7 @@ interface LayoutProps {
 
 export default function Layout({ title, children }: LayoutProps) {
   return (
-    <div>
+    <div className="container">
       <nav>
         <ul>
           <li>
